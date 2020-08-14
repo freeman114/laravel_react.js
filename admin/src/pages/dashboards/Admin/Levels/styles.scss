@@ -1,0 +1,49 @@
+.levels-tree-wrapper {
+    .rct-checkbox {
+        display: none;
+    }
+
+    .react-checkbox-tree label {
+        display: inline-flex;
+    }
+
+    .react-checkbox-tree {
+        > ol {
+            width: 100%;
+            overflow-x: scroll;
+        }
+    }
+
+    .tree-level-item {
+        display: flex;
+
+        &__error {
+            margin-top: 0.25rem;
+            font-size: 0.75rem;
+            color: #fa5c7c;
+        }
+
+        input.node-edit-input {
+            display: inline;
+            font-size: 12px;
+            padding: 0 5px;
+            color: #6c757d;
+            background-color: #fff;
+            background-clip: padding-box;
+            border: 1px solid #dee2e6;
+            border-radius: 0.25rem;
+            transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+        }
+
+        button {
+            font-size: 10px;
+            padding: 0 5px;
+            margin: 3px;
+            color: white;
+
+            &:first-child {
+                margin-left: 15px;
+            }
+        }
+    }
+}

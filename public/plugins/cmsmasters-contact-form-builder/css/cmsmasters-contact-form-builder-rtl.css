@@ -1,0 +1,124 @@
+/**
+ * @package 	WordPress Plugin
+ * @subpackage 	CMSMasters Contact Form Builder
+ * @version 	1.2.4
+ * 
+ * Contact Form Builder Styles for Right-To-Left Languages
+ * Created by CMSMasters
+ * 
+ */
+
+
+body {
+	unicode-bidi: embed;
+	direction: rtl;
+}
+
+.fl {
+	float: right;
+}
+
+.fr {
+	float: left;
+}
+
+.submit_loader {
+	margin-left: 10px;
+	margin-right: 0;
+}
+
+#settings_save, 
+#settings_error {
+	margin-left: 15px;
+	margin-right: 0;
+}
+
+#form_choose_tab, 
+#form_build_tab > div {
+	-webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+	-moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+}
+
+#form_choose_tab button[name="add_form"], 
+#form_choose_tab input[name="cancel_form"] {
+	float: left;
+}
+
+#form_choose_tab select#form_choose, 
+#form_choose_tab button[name="edit_form"], 
+#form_choose_tab input[name="save_as_form"] {
+	float: right;
+}
+
+#form_choose_tab select#form_choose, 
+#form_choose_tab button[name="edit_form"], 
+#form_choose_tab button[name="delete_form"], 
+#form_choose_tab input[name="save_as_form"] {
+	margin-left: 10px;
+}
+
+button.add span, 
+button.edit span, 
+button.delete span {
+	padding-right: 0;
+	padding-left: 5px;
+}
+
+button.small_but span {
+	padding-left: 0;
+}
+
+#form_build_tab .button-primary.top_save {
+	float: left;
+}
+
+#form_build_tab .button-primary.bottom_save {
+	float: right;
+}
+
+#form_build_tab table.form-table td.add_fields button[name="add_field"], 
+#form_build_tab table.form-table td.add_fields select#field_choose {
+	float: left;
+}
+
+#form_build_tab table.form-table td.add_fields select#field_choose {
+	margin-left: 1em;
+}
+
+.td_spinner .spinner {
+	float: none;
+	padding: 2px 6px 2px 0;
+}
+
+#form_build_tab .td_spinner label {
+	padding-right: 10px;
+}
+
+#form_build_tab .check_parent label[for="composer_use_captcha"] {
+	margin-right: 0;
+	margin-left: 4em;
+}
+
+#fields-list > li .fl_field {
+	float: right;
+	margin-left: 2em;
+}
+
+#fields-list > li button[name="delete_field"] {
+	float: left;
+}
+
+#form_build_tab .message_composer_buttons .button {
+	margin-left: .75em;
+}
+
+#form_build_tab > div li .opt_cont .opt_item input[name="opt_label"] {
+	margin-left: .5em;
+}
+
+#fields-list > li span.sortableMove {
+	right: auto;
+	left: 30px;
+}
+

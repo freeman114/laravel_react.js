@@ -1,0 +1,26 @@
+<!-- 
+cmsmasters_package: Denta
+cmsmasters_version: 1.0.0
+-->
+<wpml-config>
+    <admin-texts>
+        <key name="cmsmasters_options_denta_header">
+            <key name="denta_header_top_line_short_info" />
+            <key name="denta_header_top_line_donations_but_text" />
+            <key name="denta_header_donations_but_text" />
+            <key name="denta_header_add_cont_cust_html" />
+        </key>
+		<key name="cmsmasters_options_denta_footer">
+            <key name="denta_footer_html" />
+            <key name="denta_footer_copyright" />
+        </key>
+		<key name="cmsmasters_options_denta_single_project">
+            <key name="denta_portfolio_project_details_title" />
+        </key>
+		<key name="cmsmasters_options_denta_single_profile">
+            <key name="denta_profile_post_details_title" />
+        </key>
+    </admin-texts>
+</wpml-config>
+
+

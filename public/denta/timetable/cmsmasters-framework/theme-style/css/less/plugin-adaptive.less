@@ -1,0 +1,96 @@
+/**
+ * @package 	WordPress
+ * @subpackage 	Denta
+ * @version 	1.0.0
+ * 
+ * Timetable Responsive CSS Rules
+ * Created by CMSMasters
+ * 
+ */
+
+
+@import "../../../../../theme-framework/theme-style/css/less/general.less";
+
+
+@media only screen {
+/*-------------------------------------------------------------------------*/
+/* Large Monitor
+/*-------------------------------------------------------------------------*/
+@media @monitor_large {
+	.cmsmasters_tt_event .cmsmasters_tt_event_content_wrap.with_sidebar {
+		padding-right:40px;
+	}
+}
+
+
+
+/*-------------------------------------------------------------------------*/
+/* Tablet Monitor 950
+/*-------------------------------------------------------------------------*/
+@media @monitor_tablet_950 {
+	.cmsmasters_tt_event {
+		.cmsmasters_tt_event_content_wrap {
+			&.with_sidebar {
+				width:100%;
+				float:none;
+				clear:both;
+				padding-right:0;
+				padding-bottom:25px;
+			}
+		}
+		
+		.cmsmasters_tt_event_sidebar {
+			width:100%;
+			float:none;
+			clear:both;
+			padding-bottom:50px;
+		}
+	}
+}
+
+
+
+/*-------------------------------------------------------------------------*/
+/* Small Tablet Monitor
+/*-------------------------------------------------------------------------*/
+@media @monitor_tablet_small {
+	.tt_timetable {
+		.dn;
+	}
+	
+	.tt_timetable.small {
+		display:block;
+	}
+	
+	.ui-tabs .tt_tabs_navigation.ui-widget-header {
+		.bd(0);
+		
+		li {
+			display:block;
+			margin:0;
+			
+			&.ui-tabs-active {
+				margin:0;
+			}
+			
+			&:first-child {
+				a {
+					.bdt;
+				}
+			}
+			
+			a {
+				float:none;
+				.bdt(0);
+				
+				&:before {
+					height:auto;
+					width:2px;
+					bottom:-1px;
+				}
+			}
+		}
+	}
+}
+}
+

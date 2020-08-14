@@ -1,0 +1,24 @@
+<table>
+    <thead>
+    <tr>
+        <th><b>first_name</b></th>
+        <th><b>last_name</b></th>
+        <th><b>email</b></th>
+        <th>cell</th>
+        <th><b>title</b></th>
+        <th><b>status</b></th>
+        <th><b>type</b></th>
+        <th>home_phone</th>
+        <th>home_street_number</th>
+        <th>home_street_name</th>
+        <th>home_city</th>
+        <th>home_state</th>
+        <th>home_zip</th>
+        <th>image_url</th>
+        <th>notes</th>
+    </tr>
+    </thead>
+    <tbody>
+
+    </tbody>
+</table>

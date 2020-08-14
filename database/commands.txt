@@ -1,0 +1,26 @@
+sudo apt-get install supervisor
+
+/etc/supervisor/conf.d/laravel-worker-caresteps.conf
+
+[program:laravel-worker]
+process_name=%(program_name)s_%(process_num)02d
+command=/opt/plesk/php/7.4/bin/php /var/www/vhosts/care-steps.com/httpdocs/artisan queue:work database --sleep=3 --tries=1 --daemon
+autostart=true
+autorestart=true
+user=root
+numprocs=1
+redirect_stderr=true
+stdout_logfile=/var/www/vhosts/care-steps.com/httpdocs/worker.log
+
+sudo supervisorctl reread
+
+sudo supervisorctl update
+
+sudo service supervisor reload
+sudo supervisorctl start laravel-worker:*
+
+composer require webdevetc/blogetc
+php artisan vendor:publish
+php artisan migrate
+ln -s /home/ar/domains/caresteps/storage/app/blog_images public/blog_images
+

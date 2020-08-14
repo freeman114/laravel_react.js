@@ -1,0 +1,43 @@
+/**
+ * @package 	WordPress Plugin
+ * @subpackage 	CMSMasters Contact Form Builder
+ * @version 	1.2.7
+ * 
+ * Contact Form Shortcode & Widget Styles for Right-To-Left Languages
+ * Created by CMSMasters
+ * 
+ */
+
+ 
+body {
+	unicode-bidi:embed;
+	direction:rtl;
+}
+
+
+/* ---------- Contact Form Default Styles ---------- */
+
+.cmsmasters-form-builder .check_parent input[type="checkbox"], 
+.cmsmasters-form-builder .check_parent input[type="radio"] {
+	float:right;
+}
+
+.cmsmasters-form-builder .check_parent input[type="checkbox"] + label, 
+.cmsmasters-form-builder .check_parent input[type="radio"] + label {
+	float:right;
+	padding-left:0;
+	padding-right:5px;
+}
+
+
+/* ---------- Contact Form Validation Error Styles ---------- */
+
+.inputContainer {float:right;}
+
+.formError {
+	margin-left:0;
+	margin-right:-40px;
+	left:auto;
+	right:300px;
+}
+

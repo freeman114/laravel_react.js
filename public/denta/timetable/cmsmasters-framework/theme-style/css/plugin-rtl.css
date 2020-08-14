@@ -1,0 +1,132 @@
+/**
+ * @package 	WordPress
+ * @subpackage 	Denta
+ * @version 	1.0.0
+ * 
+ * Timetable RTL Rules
+ * Created by CMSMasters
+ * 
+ */
+
+
+.tt_tabs_navigation li {
+	float: right;
+	margin: 0 0 0 35px;
+}
+
+.tabs_box_navigation .tabs_box_navigation_selected:before {
+	left: 15px;
+	right: auto;
+}
+
+.tabs_box_navigation .tabs_box_navigation_selected label {
+	padding-left: 40px;
+	padding-right: 20px;
+}
+
+table.tt_timetable th,
+table.tt_timetable td.tt_hours_column {
+	text-align: center;
+}
+
+table.tt_timetable .event {
+	text-align: center;
+}
+
+table.tt_timetable .event div {
+	text-align: inherit;
+}
+
+table.tt_timetable .event div.tt_tooltip_content {
+	text-align: inherit;
+}
+
+.tt_tooltip .tt_tooltip_text {
+	left: auto;
+	right: 0;
+}
+
+.tt_tooltip .tt_tooltip_arrow {
+	left: 0;
+	right: 0;
+}
+
+ul.tt_items_list li a,
+ul.tt_items_list li span {
+	float: right;
+}
+
+ul.tt_items_list li .value {
+	float: left;
+}
+
+.cmsmasters_tt_event .cmsmasters_tt_event_content_wrap.with_sidebar {
+	padding-right: 0;
+	padding-left: 40px;
+	float: right;
+}
+
+.cmsmasters_tt_event .cmsmasters_tt_event_sidebar {
+	float: right;
+}
+
+.cmsmasters_tt_event .cmsmasters_tt_event_hours .cmsmasters_tt_event_hours_item > div {
+	float: right;
+}
+
+.cmsmasters_tt_event .cmsmasters_tt_event_hours .cmsmasters_tt_event_hours_item .cmsmasters_tt_event_hours_item_title {
+	padding-right: 0;
+	padding-left: 15px;
+}
+
+.cmsmasters_tt_event .cmsmasters_tt_event_hours .cmsmasters_tt_event_hours_item .cmsmasters_tt_event_hours_item_values {
+	text-align: left;
+}
+
+.cmsmasters_tt_event .cmsmasters_tt_event_details .cmsmasters_tt_event_details_item > div {
+	float: right;
+}
+
+.cmsmasters_tt_event .cmsmasters_tt_event_details .cmsmasters_tt_event_details_item .cmsmasters_tt_event_details_item_title {
+	padding-right: 0;
+	padding-left: 15px;
+}
+
+.cmsmasters_tt_event .cmsmasters_tt_event_details .cmsmasters_tt_event_details_item .cmsmasters_tt_event_details_item_desc {
+	text-align: left;
+}
+
+.tt_upcoming_events_wrapper .tt_upcoming_event_controls > a {
+	float: right;
+}
+
+.tt_upcoming_events_wrapper .tt_upcoming_event_controls > a:before {
+	left: 0;
+	right: 0;
+	text-align: center;
+}
+
+ul.tt_upcoming_events li .tt_upcoming_events_event_container {
+	text-align: right;
+	padding-left: 45px;
+	padding-right: 20px;
+}
+
+ul.tt_upcoming_events li .tt_upcoming_events_event_container:before {
+	left: 15px;
+	right: auto;
+	text-align: center;
+}
+
+@media only screen and (max-width: 950px) {
+  .cmsmasters_tt_event .cmsmasters_tt_event_content_wrap.with_sidebar {
+    float: none;
+    clear: both;
+    padding-left: 0;
+  }
+  .cmsmasters_tt_event .cmsmasters_tt_event_sidebar {
+    float: none;
+    clear: both;
+  }
+}
+

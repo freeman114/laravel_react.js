@@ -1,0 +1,234 @@
+/**
+ * @package 	WordPress Plugin
+ * @subpackage 	CMSMasters Contact Form Builder
+ * @version 	1.3.3
+ * 
+ * Contact Form Builder Styles
+ * Created by CMSMasters
+ * 
+ */
+
+
+ul, 
+li {margin:0;}
+
+.fl {float:left;}
+
+.fr {float:right;}
+
+.dn, 
+.clsep {display:none;}
+
+.cl {clear:both;}
+
+.submit_loader {
+	margin:4px 10px 0 0;
+}
+
+#form_choose_tab {margin-top:20px;}
+
+#settings_save, 
+#settings_error {margin:15px 15px 5px 0;}
+
+#form_choose_tab, 
+#form_build_tab > div {
+	border:1px solid #e5e5e5;
+	background-color:#ffffff;
+	-webkit-box-shadow:0 1px 1px rgba(0, 0, 0, 0.04);
+	-moz-box-shadow:0 1px 1px rgba(0, 0, 0, 0.04);
+	box-shadow:0 1px 1px rgba(0, 0, 0, 0.04);
+}
+
+#form_build_tab > div {
+	padding:2em 0;
+	margin-top:15px;
+}
+
+#form_choose_tab table.form-table {margin:2.5em 0;}
+
+#form_choose_tab table.form-table td, 
+#form_build_tab > div table.form-table td {padding:0 2em;}
+
+#form_choose_tab input[name="cancel_form"], 
+#form_choose_tab input[name="save_as_form"] {display:none;}
+
+#form_choose_tab button[name="add_form"], 
+#form_choose_tab input[name="cancel_form"] {float:right;}
+
+#form_choose_tab select#form_choose, 
+#form_choose_tab button[name="edit_form"], 
+#form_choose_tab input[name="save_as_form"] {float:left;}
+
+#form_choose_tab select#form_choose, 
+#form_choose_tab button[name="edit_form"], 
+#form_choose_tab button[name="delete_form"], 
+#form_choose_tab input[name="save_as_form"] {margin-right:10px;}
+
+button.small_but span, 
+button.add span, 
+button.edit span, 
+button.delete span, 
+.sortableMove {
+	font-family:dashicons;
+	font-size:16px;
+	vertical-align:middle;
+}
+
+button.add span {
+	color:#00dd00;
+}
+
+button.edit span {
+	color:#0074a2;
+	margin-top:-4px;
+}
+
+button.delete span {
+	color:#dd0000;
+	margin-top:-4px;
+}
+
+button.add span, 
+button.edit span, 
+button.delete span {
+	display:inline-block;
+	padding-right:5px;
+}
+
+button.small_but span {
+	padding-right:0;
+}
+
+button.add.small_but span {
+	margin-top:-2px;
+}
+
+#form_choose_tab select, 
+#form_build_tab select {width:180px;}
+
+#form_build_tab .button-primary.top_save {float:right;}
+
+#form_build_tab .button-primary.bottom_save {
+	float:left;
+	margin-top:4em;
+}
+
+#form_build_tab table.form-table {margin:0;}
+
+#form_build_tab table.form-table td.add_fields {
+	border-top:1px solid #dddddd;
+	border-bottom:1px solid #dddddd;
+	background-color:#f5f5f5;
+	padding:2em;
+}
+
+#form_build_tab table.form-table td.add_fields button[name="add_field"], 
+#form_build_tab table.form-table td.add_fields select#field_choose {float:right;}
+
+#form_build_tab table.form-table td.add_fields select#field_choose {margin-right:1em;}
+
+#form_build_tab table.form-table td.mess_compose {padding-top:2em;}
+
+#form_build_tab table.form-table td.sortable_fields {padding:25px 2em 10px;}
+
+#form_build_tab table.form-table td.sortable_fields p {margin-top:14px;}
+
+#form_build_tab textarea {resize:vertical;}
+
+#form_build_tab textarea[name="composer_message"], 
+#form_build_tab textarea[name="composer_subject"], 
+#form_build_tab textarea[name="composer_success"], 
+#form_build_tab input[name="composer_button"] {margin-bottom:2em;}
+
+.td_spinner .spinner {
+	background:#ffffff;
+	display:block;
+	float:none;
+	height:auto;
+	padding: 2px 0 2px 6px;
+	margin-left:0;
+	margin-right:0;
+	opacity:1;
+	width:65px;
+	visibility:visible;
+}
+
+#form_build_tab .check_parent, 
+#form_build_tab .td_spinner {
+	position:relative;
+	overflow:hidden;
+}
+
+#form_build_tab .td_spinner label {padding-left:10px;}
+
+#form_build_tab .td_spinner label {line-height:30px;}
+
+#form_build_tab .check_parent label[for="composer_use_captcha"] {margin-right:4em;}
+
+#fields-list {
+	border-top:1px solid #dddddd;
+	padding:0 2em;
+}
+
+#fields-list > li {
+	border:1px solid #dddddd;
+	border-bottom:0;
+	background-color:#f5f5f5;
+	padding:1em 2em;
+	position:relative;
+	overflow:hidden;
+}
+
+#fields-list > li .fl_field {
+	float:left;
+	margin-right:2em;
+	position:relative;
+	overflow:hidden;
+}
+
+#fields-list > li button[name="delete_field"] {
+	float:right;
+	margin-top:1em;
+}
+
+#fields-list > li:first-child {border-top:0;}
+
+#form_build_tab > div li table.form-table td {padding:0;}
+
+#form_build_tab .message_composer_buttons {margin:1em 0;}
+
+#form_build_tab .message_composer_buttons .button {margin-right:.75em;}
+
+#form_build_tab > div li .opt_cont {
+	position:relative;
+	overflow:hidden;
+}
+
+#form_build_tab > div li .opt_cont .opt_item {margin-bottom:.5em;}
+
+#form_build_tab > div li .opt_cont .opt_item input[name="opt_label"] {margin-right:.5em;}
+
+#fields-list > li.ui-sortable-helper, 
+#fields-list > li.ui-sortable-helper:first-child {border:1px solid #cccccc;}
+
+#fields-list > li.ui-sortable-highlight {
+	border:1px solid #e6db55;
+	border-bottom:0;
+	background-color:#ffffe0;
+	display:block;
+	height:150px;
+}
+
+#fields-list > li.ui-sortable-helper:first-child + li {border-top:0;}
+
+#fields-list > li span.sortableMove {
+	font-size:20px;
+	display:block;
+	width:25px;
+	height:25px;
+	position:absolute;
+	bottom:30px;
+	right:30px;
+	cursor:move;
+}
+

@@ -1,0 +1,45 @@
+{
+    "private": true,
+    "workspaces": [
+        "admin"
+    ],
+    "scripts": {
+        "dev": "npm run development",
+        "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "watch": "npm run development -- --watch",
+        "watch-poll": "npm run watch -- --watch-poll",
+        "hot": "cross-env NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "prod": "npm run production",
+        "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+    },
+    "devDependencies": {
+        "@babel/preset-react": "^7.0.0",
+        "axios": "^0.19",
+        "bootstrap": "^4.0.0",
+        "cross-env": "^7.0",
+        "jquery": "^3.2",
+        "laravel-mix": "^5.0.1",
+        "lodash": "^4.17.13",
+        "popper.js": "^1.12",
+        "react": "^16.2.0",
+        "react-app-rewired": "^2.1.6",
+        "react-dom": "^16.2.0",
+        "resolve-url-loader": "^2.3.1",
+        "sass": "^1.20.1",
+        "sass-loader": "^8.0.0"
+    },
+    "dependencies": {
+        "@stripe/react-stripe-js": "^1.1.2",
+        "@stripe/stripe-js": "^1.8.0",
+        "ag-grid-community": "^23.0.2",
+        "ag-grid-react": "^23.0.3",
+        "dateformat": "^3.0.3",
+        "devextreme": "19.2.7",
+        "devextreme-react": "19.2.7",
+        "dotenv": "^8.2.0",
+        "react-checkbox-tree": "^1.6.0",
+        "react-credit-cards": "^0.8.0",
+        "react-sortable-tree": "^2.7.1",
+        "rewire": "^5.0.0"
+    }
+}
